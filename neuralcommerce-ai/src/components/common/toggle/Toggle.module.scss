@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #94A3B8; // muted text
+  font-weight: 500;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.activeLabel {
+  color: white;
+}
+
+.switch {
+  width: 60px;
+  height: 32px;
+  background: #1E293B;
+  border-radius: 999px;
+  padding: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.ball {
+  width: 24px;
+  height: 24px;
+  background: #22D3EE; // CYAN
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* When active (Yearly selected) */
+.active .ball {
+  transform: translateX(28px);
+}

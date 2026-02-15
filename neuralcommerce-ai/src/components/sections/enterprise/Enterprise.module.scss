@@ -1,5 +1,15 @@
-/* Styles for Enterprise section */
-.enterprise {
-  padding: 2.5rem 1rem;
+@import '../../../styles/theme';
+
+.title {
   text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 2rem;
+}
+
+.listContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }

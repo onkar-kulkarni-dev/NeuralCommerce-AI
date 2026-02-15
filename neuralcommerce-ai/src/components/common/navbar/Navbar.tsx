@@ -21,7 +21,7 @@ const Navbar = () => {
                 ))}
             </div> */}
             <div className={styles.authButtons}>
-                <button>Sign In</button>
+                <button className={styles.signIn}>Sign In</button>
                 <button className={styles.getStarted}>Get Started</button>
             </div>
         </div>

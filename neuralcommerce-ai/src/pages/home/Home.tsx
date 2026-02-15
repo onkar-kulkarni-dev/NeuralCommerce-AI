@@ -7,17 +7,21 @@ import Engine from "../../components/sections/engine/Engine";
 import Enterprise from "../../components/sections/enterprise/Enterprise";
 import Hero from "../../components/sections/hero/Hero";
 import Pricing from "../../components/sections/pricing/Pricing";
+import Contact from "../../components/sections/contact/Contact";
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
+            <div className={styles.navbarContainer}>
+                <Navbar />
+            </div>
             <main className={styles.main}>
                 <Hero />
                 <Capabilities />
                 <Engine />
                 <Enterprise />
                 <Pricing />
+                <Contact />
             </main>
             <Footer />
         </div>
