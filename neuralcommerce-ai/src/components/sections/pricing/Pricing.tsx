@@ -21,7 +21,7 @@ const Pricing = () => {
         return price;
     }
     return (
-        <section>
+        <section className={styles.container}>
             <h2 className={styles.title}>Scalable Enterprise Pricing</h2>
             <PricingToggle yearly={yearly} setYearly={setYearly} />
             <div className={styles.grid}>

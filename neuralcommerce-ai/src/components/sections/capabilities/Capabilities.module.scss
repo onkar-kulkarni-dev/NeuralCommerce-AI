@@ -1,5 +1,15 @@
 @import '../../../styles/theme';
 
+.container {
+  padding: 1rem;
+  background-color: #0F172A;
+  background-image:
+    radial-gradient(circle at 50% 10%,
+      rgba(124, 58, 237, 0.10),
+      transparent 55%);
+  color: white;
+}
+
 .title {
   text-align: center;
   font-size: 2rem;
@@ -42,6 +52,7 @@
 
 .card:hover {
   outline: 1px solid darkslategrey;
+
   .icon {
     outline: 1px solid darkslategrey;
   }

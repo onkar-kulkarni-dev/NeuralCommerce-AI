@@ -1,5 +1,15 @@
 @import '../../../styles/theme';
 
+.container {
+  padding: 1rem;
+  background-color: #0F172A;
+  background-image:
+    radial-gradient(circle at 50% 10%,
+      rgba(124, 58, 237, 0.10),
+      transparent 55%);
+  color: white;
+}
+
 .title {
   text-align: center;
   font-size: 2rem;
@@ -95,10 +105,13 @@
   font-weight: 600;
   border-radius: 100px;
 }
+
 ul li {
   list-style: disc;
   margin: 0 1rem;
 }
+
 ul li::marker {
-  color: $cyan; /* your cyan */
+  color: $cyan;
+  /* your cyan */
 }

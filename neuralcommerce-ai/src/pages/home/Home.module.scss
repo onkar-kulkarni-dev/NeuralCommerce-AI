@@ -1,8 +1,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-    padding: 1rem;
+    // gap: 4rem;
+    padding: 1rem 1rem 0;
 }
 .navbarContainer{
     margin: 1rem;
@@ -11,4 +11,5 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 100px;
     background-color: #0B1220;
+    z-index: 9999;
 }

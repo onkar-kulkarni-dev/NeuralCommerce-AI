@@ -9,15 +9,15 @@ import { RiGlobalLine } from "react-icons/ri";
 
 const Capabilities = () => {
     const data = [
-        { id: 1, name: 'Neural Personalization', desc: 'AI models that learn and adapt to every shopper journey in real-time.', icon: <LuBrainCircuit size={40} color='oklch(78.9% 0.154 211.53)'/> },
-        { id: 2, name: 'Predictive Logistics', desc: 'Anticipate demand surges before they happen with global supply chain intelligence.', icon: <FiShoppingCart size={40} color='oklch(78.9% 0.154 211.53)'/> },
-        { id: 3, name: 'Real-time Analytics', desc: 'Multi-dimensional data visualization with actionable business insights.', icon: <VscGraph size={40} color='oklch(78.9% 0.154 211.53)'/> },
-        { id: 4, name: 'Enterprise Security', desc: 'Bank-grade encryption and autonomous fraud prevention protocols.', icon: <GoShieldCheck size={40} color='oklch(78.9% 0.154 211.53)'/> },
-        { id: 5, name: 'Instant Integration', desc: 'Connect to your existing tech stack with 1-click cloud connectors.', icon: <BsLightningCharge size={40} color='oklch(78.9% 0.154 211.53)'/> },
-        { id: 6, name: 'Global Scalability', desc: 'Edge-computed architecture ensuring sub-100ms response times worldwide.', icon: <RiGlobalLine size={40} color='oklch(78.9% 0.154 211.53)'/> },
+        { id: 1, name: 'Neural Personalization', desc: 'AI models that learn and adapt to every shopper journey in real-time.', icon: <LuBrainCircuit size={40} color='oklch(78.9% 0.154 211.53)' /> },
+        { id: 2, name: 'Predictive Logistics', desc: 'Anticipate demand surges before they happen with global supply chain intelligence.', icon: <FiShoppingCart size={40} color='oklch(78.9% 0.154 211.53)' /> },
+        { id: 3, name: 'Real-time Analytics', desc: 'Multi-dimensional data visualization with actionable business insights.', icon: <VscGraph size={40} color='oklch(78.9% 0.154 211.53)' /> },
+        { id: 4, name: 'Enterprise Security', desc: 'Bank-grade encryption and autonomous fraud prevention protocols.', icon: <GoShieldCheck size={40} color='oklch(78.9% 0.154 211.53)' /> },
+        { id: 5, name: 'Instant Integration', desc: 'Connect to your existing tech stack with 1-click cloud connectors.', icon: <BsLightningCharge size={40} color='oklch(78.9% 0.154 211.53)' /> },
+        { id: 6, name: 'Global Scalability', desc: 'Edge-computed architecture ensuring sub-100ms response times worldwide.', icon: <RiGlobalLine size={40} color='oklch(78.9% 0.154 211.53)' /> },
     ]
     return (
-        <section>
+        <section className={styles.container}>
             <h2 className={styles.title}>Autonomous Intelligence for Modern Commerce</h2>
             <p className={styles.subTitle}>Our platform replaces fragmented legacy tools with a unified AI core that drives growth automatically.</p>
             <div className={styles.grid}>
