@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.authButtons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    @media (min-width: 768px) {
+        gap: 1rem;
+    }
+}
+
+.getStarted{
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}

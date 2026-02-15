@@ -1,0 +1,68 @@
+@import '../../../styles/theme';
+
+.heroTip {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $cyan;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: white;
+
+  span {
+    background: linear-gradient(135deg,
+        oklch(54.6% 0.245 262.881) 0%,
+        oklch(62% 0.22 278deg) 50%,
+        oklch(70.2% 0.183 293.541) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.subTitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $gray;
+}
+
+////////////////////////////////////////////
+// brands ribbon
+
+.brandsRibbon {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  background-color: black;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.brandsContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brandsTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $gray;
+  text-transform: uppercase;
+}
+
+.brand {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $gray;
+}
