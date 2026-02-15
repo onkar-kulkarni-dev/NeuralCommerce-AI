@@ -1,14 +1,13 @@
-import React from 'react';
 import styles from './Navbar.module.scss';
 import logoUrl from '../../../assets/neuralcommerce-ai.svg';
 
 const Navbar = () => {
-    const data = [
-        { id: 1, name: 'Capabilities', link: '/capabilities' },
-        { id: 2, name: 'The Engine', link: '/engine' },
-        { id: 3, name: 'Enterprise', link: '/enterprise' },
-        { id: 4, name: 'Pricing', link: '/pricing' },
-    ]
+    // const data = [
+    //     { id: 1, name: 'Capabilities', link: '/capabilities' },
+    //     { id: 2, name: 'The Engine', link: '/engine' },
+    //     { id: 3, name: 'Enterprise', link: '/enterprise' },
+    //     { id: 4, name: 'Pricing', link: '/pricing' },
+    // ]
     return (
         <div className={styles.navbar}>
             <div className={styles.logoContainer}>
